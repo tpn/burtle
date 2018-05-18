@@ -1,0 +1,23 @@
+CFLAGS = -O4
+
+.cc.o:
+	gcc $(CFLAGS) -c $<
+
+O = recycle.o bit.o mix.o rand.o gauss.o char.o
+
+char : $(O)
+	gcc -o char $(O) -lm
+
+# DEPENDENCIES
+
+bit.o : bit.c bit.h standard.h
+
+recycle.o : recycle.c recycle.h standard.h
+
+mix.o : mix.c mix.h standard.h
+
+rand.o : rand.c rand.h standard.h
+
+gauss.o : gauss.c bit.h gauss.h standard.h
+
+char.o : char.c bit.h gauss.h recycle.h mix.h standard.h

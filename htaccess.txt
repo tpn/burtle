@@ -1,0 +1,5 @@
+AddType text/plain .c
+AddType text/plain .h
+AddType text/plain .sql
+AddType text/plain .java
+AddType application/java-archive .jar

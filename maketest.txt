@@ -1,0 +1,19 @@
+CFLAGS = -O
+
+.cc.o:
+	gcc $(CFLAGS) -c $<
+
+O = recycle.o rand.o testb.o test.o
+
+const64 : $(O)
+	gcc -o test $(O) -lm
+
+# DEPENDENCIES
+
+recycle.o : recycle.c standard.h recycle.h
+
+rand.o    : rand.c standard.h rand.h
+
+testb.o   : testb.c standard.h recycle.h rand.h test.h
+
+test.o    : test.c standard.h recycle.h rand.h test.h

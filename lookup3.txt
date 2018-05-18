@@ -1,0 +1,96 @@
+No more than 30 trials should ever be needed 
+Mix success   0 bytes   0 initvals  required  0  trials
+Mix success   1 bytes   8 initvals  required  13  trials
+Mix success   2 bytes   8 initvals  required  13  trials
+Mix success   3 bytes   8 initvals  required  14  trials
+Mix success   4 bytes   8 initvals  required  16  trials
+Mix success   5 bytes   8 initvals  required  16  trials
+Mix success   6 bytes   8 initvals  required  15  trials
+Mix success   7 bytes   8 initvals  required  16  trials
+Mix success   8 bytes   8 initvals  required  21  trials
+Mix success   9 bytes   8 initvals  required  21  trials
+Mix success  10 bytes   8 initvals  required  21  trials
+Mix success  11 bytes   8 initvals  required  21  trials
+Mix success  12 bytes   8 initvals  required  16  trials
+Mix success  13 bytes   8 initvals  required  18  trials
+Mix success  14 bytes   8 initvals  required  18  trials
+Mix success  15 bytes   8 initvals  required  18  trials
+Mix success  16 bytes   8 initvals  required  18  trials
+Mix success  17 bytes   8 initvals  required  18  trials
+Mix success  18 bytes   8 initvals  required  18  trials
+Mix success  19 bytes   8 initvals  required  18  trials
+Mix success  20 bytes   8 initvals  required  15  trials
+Mix success  21 bytes   8 initvals  required  16  trials
+Mix success  22 bytes   8 initvals  required  19  trials
+Mix success  23 bytes   8 initvals  required  19  trials
+Mix success  24 bytes   8 initvals  required  19  trials
+Mix success  25 bytes   8 initvals  required  18  trials
+Mix success  26 bytes   8 initvals  required  18  trials
+Mix success  27 bytes   8 initvals  required  18  trials
+Mix success  28 bytes   8 initvals  required  17  trials
+Mix success  29 bytes   8 initvals  required  16  trials
+Mix success  30 bytes   8 initvals  required  16  trials
+Mix success  31 bytes   8 initvals  required  16  trials
+Mix success  32 bytes   8 initvals  required  17  trials
+Mix success  33 bytes   8 initvals  required  17  trials
+Mix success  34 bytes   8 initvals  required  17  trials
+Mix success  35 bytes   8 initvals  required  16  trials
+Mix success  36 bytes   8 initvals  required  16  trials
+Mix success  37 bytes   8 initvals  required  19  trials
+Mix success  38 bytes   8 initvals  required  19  trials
+Mix success  39 bytes   8 initvals  required  19  trials
+Mix success  40 bytes   8 initvals  required  19  trials
+Mix success  41 bytes   8 initvals  required  19  trials
+Mix success  42 bytes   8 initvals  required  19  trials
+Mix success  43 bytes   8 initvals  required  18  trials
+Mix success  44 bytes   8 initvals  required  18  trials
+Mix success  45 bytes   8 initvals  required  19  trials
+Mix success  46 bytes   8 initvals  required  18  trials
+Mix success  47 bytes   8 initvals  required  18  trials
+Mix success  48 bytes   8 initvals  required  18  trials
+Mix success  49 bytes   8 initvals  required  18  trials
+Mix success  50 bytes   8 initvals  required  18  trials
+Mix success  51 bytes   8 initvals  required  18  trials
+Mix success  52 bytes   8 initvals  required  18  trials
+Mix success  53 bytes   8 initvals  required  18  trials
+Mix success  54 bytes   8 initvals  required  17  trials
+Mix success  55 bytes   8 initvals  required  18  trials
+Mix success  56 bytes   8 initvals  required  18  trials
+Mix success  57 bytes   8 initvals  required  18  trials
+Mix success  58 bytes   8 initvals  required  18  trials
+Mix success  59 bytes   8 initvals  required  18  trials
+Mix success  60 bytes   8 initvals  required  18  trials
+Mix success  61 bytes   8 initvals  required  20  trials
+Mix success  62 bytes   8 initvals  required  20  trials
+Mix success  63 bytes   8 initvals  required  20  trials
+Mix success  64 bytes   8 initvals  required  20  trials
+Mix success  65 bytes   8 initvals  required  20  trials
+Mix success  66 bytes   8 initvals  required  20  trials
+Mix success  67 bytes   8 initvals  required  19  trials
+Mix success  68 bytes   8 initvals  required  19  trials
+Mix success  69 bytes   8 initvals  required  19  trials
+
+Endianness.  These lines should all be the same (for values filled in):
+499ae8fa                            b1946734                            f4688dd0
+499ae8fa b9bef31c 8efefdfd a56b7aab b1946734 9f31c5ce 0826585d 55b69dea f4688dd0 e87eb146 b202fb17 711fe56a
+499ae8fa b9bef31c 8efefdfd a56b7aab b1946734 9f31c5ce 0826585d 55b69dea f4688dd0 e87eb146 b202fb17 711fe56a
+499ae8fa b9bef31c 8efefdfd a56b7aab b1946734 9f31c5ce 0826585d 55b69dea f4688dd0 e87eb146 b202fb17 711fe56a
+499ae8fa b9bef31c 8efefdfd a56b7aab b1946734 9f31c5ce 0826585d 55b69dea f4688dd0 e87eb146 b202fb17 711fe56a
+
+These should all be different
+ 0  0-byte strings, hash is  deadbeef
+ 1  0-byte strings, hash is  bd5b7dde
+ 2  0-byte strings, hash is  9c093ccd
+ 3  0-byte strings, hash is  7ab6fbbc
+ 4  0-byte strings, hash is  5964baab
+ 5  0-byte strings, hash is  3812799a
+ 6  0-byte strings, hash is  16c03889
+ 7  0-byte strings, hash is  f56df778
+hash is deadbeef deadbeef
+hash is bd5b7dde deadbeef
+hash is 9c093ccd bd5b7dde
+hash is 17770551 ce7226e6
+hash is e3607cae bd371de4
+hash is cd628161 6cbea4b3
+hash is 17770551
+hash is cd628161
